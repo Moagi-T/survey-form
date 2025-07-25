@@ -13,12 +13,18 @@
         <label id="email-label" >Email <input type="email" id="email" placeholder="Enter your email" required ></label>
         <label id="number-label" >Age (optional) <input type="number" id="number" min="1" max="120" placeholder="Age"></label>
         <label for="dropdown">Do you play video games?<select id="dropdown">
-          <option value="">Select an option</option>
+          <option value=" ">Select an option</option>
           <option value="1">No</option>
           <option value="2">Yes</option>
           <option value="3">Maybe</option>
         </select>
         </label>
+    </fieldset>
+    <fieldset>
+        <legend>How much time do you spend playing games per session?</legend>
+        <label for="short-playtime"><input type="radio" id="short-playtime" value="0-2" name="session-time" class="inline"> 0-2 hours</label>
+        <label for="moderate-playtime"><input type="radio" id="moderate-playtime" value="2-5" name="session-time" class="inline"> 2-5 hours</label>
+        <label for="long-playtime"><input type="radio" id="long-playtime" value="5+" name="session-time" class="inline" > 5+ hours</label>
       </fieldset>
 </body>
 </html>
